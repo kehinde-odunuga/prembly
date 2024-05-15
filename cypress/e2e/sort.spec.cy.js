@@ -1,5 +1,9 @@
-import { loginPage } from 'C:/Users/odunuga/Desktop/Prembly/cypress/support/loginPage.js';
-import { productsPage } from 'C:/Users/odunuga/Desktop/Prembly/cypress/support/productPage.js';
+// import { loginPage } from 'C:/Users/odunuga/Desktop/Prembly/cypress/support/loginPage.js';
+// import { productsPage } from 'C:/Users/odunuga/Desktop/Prembly/cypress/support/productPage.js';
+
+import { loginPage } from 'cypress\support\loginPage.js';
+import { productsPage } from 'cypress\support\productPage.js';
+
 
 describe('saucedemo test', () => {
     it('should sort items by Name (A -> Z) and (Z -> A)', () => {
