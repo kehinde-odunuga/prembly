@@ -1,0 +1,15 @@
+{
+  "name": "prembly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.9.0",
+    "cypress-fill-command": "^1.0.2"
+  }
+}
