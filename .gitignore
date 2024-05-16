@@ -1,3 +1,7 @@
 node_modules/
 .vscode/
 dist/
+cypress/screenshots/
+cypress/videos/
+.idea/
+.DS_Store
