@@ -18,3 +18,6 @@
 
 ### Run
 - The `runner.spec.cy.js` file contains the imported tests to be run which is the `sort.spec.cy.js` file.
+
+### Workflow
+- For every `push` and `pull_request` events, a ci job runs automatically to ensure that new changes don't break the system. You can see this from the `github actions` section of github.
